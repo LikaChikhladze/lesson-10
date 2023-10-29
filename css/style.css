@@ -1,0 +1,40 @@
+/* basic classes */
+.flex {
+  display: flex;
+}
+/* basic classes */
+.sectiom-form {
+  margin-top: 100px;
+}
+.forms {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-wrapper {
+  width: 40%;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.input-text[type=text] {
+  height: 40px;
+}
+.input-text[type=password] {
+  height: 30px;
+}
+textarea {
+  resize: none;
+}
+.input-text::placeholder {
+  color: red;
+}
+.input-text {
+  border: none;
+  border-bottom: 2px solid grey;
+}
+input:focus {
+  outline: none;
+}
