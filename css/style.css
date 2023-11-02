@@ -3,38 +3,45 @@
   display: flex;
 }
 /* basic classes */
-.sectiom-form {
-  margin-top: 100px;
+
+/* 1st section start */
+.bg-image {
+  background-image: url('../images/header-image.jpg');
+  height: 324px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
 }
-.forms {
-  max-width: 600px;
+.conteiner {
+  max-width: 1083px;
   width: 100%;
   margin: 0 auto;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
-.input-wrapper {
-  width: 40%;
-  flex-direction: column;
-  margin-bottom: 20px;
+.header-wrap {
+  justify-content: space-between;
+  padding: 30px 0;
 }
-.input-text[type=text] {
-  height: 40px;
+.nav-li {
+  margin-right: 49px;
 }
-.input-text[type=password] {
-  height: 30px;
+.nav-li:last-child {
+  margin-right: 0;
 }
-textarea {
-  resize: none;
+.fa-bars {
+  margin-left: 25px;
+  display: none;
 }
-.input-text::placeholder {
-  color: red;
+.li-a {
+  font-size: 12px;
+  color: white;
 }
-.input-text {
-  border: none;
-  border-bottom: 2px solid grey;
+.active  {
+  color: #5863F8;
 }
-input:focus {
-  outline: none;
+.header-wrap h4 {
+  font-size: 14px;
 }
+/* 1st section finished */
