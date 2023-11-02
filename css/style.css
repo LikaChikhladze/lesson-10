@@ -77,3 +77,97 @@
   margin-right: 15px;
 }
 /* 1st section finished */
+
+/* 2nd section started */
+
+.map {
+  margin-top: 50px;
+  margin-bottom: 56px;
+}
+
+/* 2nd section finished*/
+
+/* 3rd section started */
+
+.contactform {
+  margin-top: 49px;
+  justify-content: space-between;
+}
+.contactform2 {
+  max-width: 720px;
+  width: 100%;
+}
+.contactform3 {
+  max-width: 352px;
+  width: 100%;
+}
+.contactform1 p {
+  font-size: 14px;
+  color: #5863F8;
+  font-weight: bold;
+}
+.contactform1 h2 {
+  font-size: 45px;
+  line-height: 56px;
+  max-width: 378px;
+  width: 100%;
+  margin-bottom: 49px;
+}
+.textarea1 {
+  max-width: 720px;
+  width: 100%;
+  height: 288px;
+  background-color: #f8f8f8;
+  resize: none;
+  padding: 20px;
+  color: #CECECE;
+  font-size: 13px;
+  border-color: #E8E8E8;
+}
+textarea:focus {
+  outline: none;
+}
+/* .contactform3 {
+  max-width: 352px;
+  width: 100%;
+  background-color: #F8F8F8;
+} */
+.child-forms {
+  max-width: 352px;
+  width: 100%;
+  background-color: #f8f8f8;
+}
+.child-forms input {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 20px;
+  color: #CECECE;
+  border-color: #E8E8E8;
+
+}
+.child-forms:not(.last-child) {
+  margin-bottom: 16px;
+}
+.last-child input {
+  color: white;
+  font-weight: bold;
+  background-color: #5863F8;
+  cursor: pointer;
+}
+.last-child {
+  position: relative;
+}
+.last-child::after {
+  content: "\27B9";
+  position: absolute;
+  top: 22px;
+  left: 198px;
+  color: white;
+}
+input:focus {
+  outline: none;
+}
+::placeholder {
+  color: #CECECE;
+}
+/* 3rd section finished */
