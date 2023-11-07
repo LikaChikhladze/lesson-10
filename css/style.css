@@ -2,7 +2,6 @@
 .flex {
   display: flex;
 }
-/* basic classes */
 
 /* 1st section start */
 .bg-image {
@@ -12,7 +11,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* position: relative; */
   color: white;
 }
 .conteiner {
@@ -23,14 +21,8 @@
 .header-wrap {
   justify-content: space-between;
   padding: 30px 0;
-  /* border-color: wheat;
-  border-width: 2px;
-  border-style: solid; */
   flex-wrap: wrap;
 }
-/* .nav-li {
-  margin-right: 49px;
-} */
 .nav-li:not(.last-li) {
   margin-right: 49px;
 }
@@ -78,19 +70,19 @@
 }
 /* 1st section finished */
 
-/* 2nd section started */
 
+/* 2nd section started */
 .map {
   margin-top: 50px;
   margin-bottom: 56px;
 }
-
 /* 2nd section finished*/
 
-/* 3rd section started */
 
+/* 3rd section started */
 .contactform {
   margin-top: 49px;
+  margin-bottom: 50px;
   justify-content: space-between;
 }
 .contactform2 {
@@ -127,11 +119,6 @@
 textarea:focus {
   outline: none;
 }
-/* .contactform3 {
-  max-width: 352px;
-  width: 100%;
-  background-color: #F8F8F8;
-} */
 .child-forms {
   max-width: 352px;
   width: 100%;
@@ -171,3 +158,202 @@ input:focus {
   color: #CECECE;
 }
 /* 3rd section finished */
+
+
+/* 4th section started */
+.section4 {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+.boxes {
+  max-width: 352px;
+  width: 32.5%;
+  text-align: center;
+  align-items: center;
+}
+.boxes i {
+  max-width: 55px;
+  width: 100%;
+  height: 55px;
+  background-color: #5863F8;
+  border-radius: 25px;
+  color: white;
+  padding: 20px;
+} 
+.boxes h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.mailto a {
+  color: #B1B1B1;
+  font-weight: 500;
+  font-size: 14px;
+}
+.callto a {
+  color: #B1B1B1;
+  font-weight: 500;
+  font-size: 14px;
+}
+.addmap a {
+  color: #B1B1B1;
+  font-weight: 500;
+  font-size: 14px;
+}
+/* 4th section finished */
+
+
+/* 5th section started */
+.section5 p {
+  color: #5863F8;
+  font-weight: bold;
+  font-size: 14px;
+}
+.section5 h2 {
+  max-width: 544px;
+  width: 100%;
+  font-size: 42px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+.section6 {
+  max-width: 100%;
+  justify-content: space-between;
+}
+/* 5th section finished */
+
+
+/* section 6 started */
+.section6 {
+  max-width: 100%;
+  justify-content: space-between;
+}
+/* section 6 finished */
+
+
+/* last section started */
+.last-conteiner {
+  justify-content: space-between;
+}
+.last-section {
+  max-width: 100%;
+  height: 395px;
+  background-color: black;
+}
+.block1 {
+  flex-direction: column;
+  padding-top: 90px;
+  margin-right: 200px;
+  margin-bottom: 54px;
+  max-width: 260px;
+}
+.block1 h2 {
+  color: white;
+  font-size: 34px;
+  font-weight: bold;
+}
+.block1 p {
+  color: #B1B1B1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.fa-facebook-f {
+  width: 35px;
+  height: 35px;
+  padding: 11px;
+  background-color: #3B5998;
+  color: #FFFFFF;
+  border-radius: 25px;
+}
+.fa-twitter {
+  background-color: #55ACEE;
+  color: white;
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 25px;
+}
+.fa-google-plus-g {
+  background-color: #DC4E41;
+  color: white;
+  width: 35px;
+  height: 35px;
+  padding: 9px;
+  border-radius: 25px;
+}
+.icons i:not(.last-icon) {
+  margin-right: 10px;
+}
+/* last section finished */
+
+/* block 2 started */
+
+.block2 {
+  max-width: 600px;
+  width: 100%;
+  /* background-color: beige; */
+  justify-content: space-between;
+}
+.child-box {
+  height: 156px;
+  margin-top: 90px;
+  /* background-color: #B1B1B1; */
+}
+.child-box:nth-child(1) {
+  max-width: 100px;
+  width: 100%;
+  margin-right: 84px;
+}
+.child-box:nth-child(2) {
+  max-width: 79px;
+  width: 100%;
+  margin-right: 105px;
+}
+.child-box:nth-child(3) {
+  max-width: 199px;
+  width: 100%;
+}
+.child-box h2 {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 19px;
+}
+.childbox-li a {
+  color:  #5863F8;
+  font-size: 14px;
+  font-weight: bold;
+}
+.childbox-ul li:not(.nomargin) {
+  margin-bottom: 9px;
+}
+.childbox-li {
+  color: white;
+}
+.childbox-li i {
+  margin-right: 14px;
+}
+.child-box {
+  line-height: 19px;
+}
+.last-ul {
+  line-height: 29px;
+}
+/* block 2 finished */
+
+/* last line started */
+.weblink h3 {
+  color: white;
+}
+.Copyright a {
+  color: #5863F8;
+}
+.weblink {
+  justify-content: space-between;
+  font-size: 16px;
+}
+.weblink a {
+  color: #5863F8;
+}
+/* last line finished */
